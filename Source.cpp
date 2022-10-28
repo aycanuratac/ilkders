@@ -3,6 +3,9 @@
 using namespace std;
 
 int main() {
-	cout << "Cok sikiciyim\n";
+	string x;
+	cout << "lutfen yasinizi giriniz: ";
+	cin >> x;
+	cout << "Merhabalar amina kodumun " << x << "'i";
 	return 0;
 }
